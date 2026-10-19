@@ -1,0 +1,8 @@
+# 开发/打包额外依赖（运行程序本身只需要 PyQt5）
+-r requirements.txt
+
+# 打包成单文件 exe
+pyinstaller>=6.0
+
+# 只有 tests/make_icons.py（从白底方图生成透明圆图标）需要
+Pillow>=10.0

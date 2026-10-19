@@ -1,0 +1,28 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(3, 0, 0, 0),
+    prodvers=(3, 0, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable(
+        '080404B0',
+        [StringStruct('CompanyName', '野怼怼'),
+         StringStruct('FileDescription', '会议倒计时 主控端（多主控版）'),
+         StringStruct('FileVersion', '3.0.0.0'),
+         StringStruct('InternalName', 'MeetingTimerMaster'),
+         StringStruct('LegalCopyright', '版权所有 (C) 野怼怼  https://www.bd7iwd.com'),
+         StringStruct('OriginalFilename', 'MeetingTimerMaster.exe'),
+         StringStruct('ProductName', '会议倒计时提醒系统（多主控版）'),
+         StringStruct('ProductVersion', '3.0.0.0'),
+         StringStruct('Comments', '作者：野怼怼；https://www.bd7iwd.com')])
+    ]),
+    VarFileInfo([VarStruct('Translation', [2052, 1200])])
+  ]
+)
